@@ -1,0 +1,182 @@
+GAUSSIAN SPECTROSCOPIC ANALYSIS REPORT
+==================================================
+Molecule: water_molecule
+Analysis Date: 2025-01-15 14:30:22
+Method: B3LYP/6-31G(d,p)
+
+GEOMETRY OPTIMIZATION
+--------------------
+Final Energy: -76.419358 Hartree
+Converged: Yes
+Optimization Steps: 4
+Final RMS Force: 0.000012 au
+Maximum Force: 0.000018 au
+
+VIBRATIONAL FREQUENCY ANALYSIS
+------------------------------
+Number of frequencies: 3
+All frequencies are real (no imaginary frequencies detected)
+
+Frequencies (cm⁻¹):
+    1:  1627.35 (IR intensity:  68.25, Raman activity:  12.45)
+    2:  3657.89 (IR intensity:  12.45, Raman activity:  89.76)
+    3:  3758.12 (IR intensity:  58.92, Raman activity:  156.23)
+
+Thermochemical Analysis:
+Zero-point energy: 0.021468 Hartree (13.47 kcal/mol)
+Thermal correction to Enthalpy: 0.024263 Hartree
+Thermal correction to Gibbs Free Energy: 0.003336 Hartree
+
+Rotational Constants (GHz):
+A = 835.051    B = 435.352    C = 278.139
+
+UV-VISIBLE SPECTROSCOPY (TD-DFT)
+--------------------------------
+Excited States (first 5):
+  State 1: 167.2 nm (7.42 eV, f=0.0542) - n→σ* transition
+  State 2: 132.8 nm (9.34 eV, f=0.1234) - n→σ* transition  
+  State 3: 128.5 nm (9.65 eV, f=0.0089) - Rydberg transition
+  State 4: 115.6 nm (10.73 eV, f=0.0234) - Rydberg transition
+  State 5: 108.9 nm (11.38 eV, f=0.0456) - Rydberg transition
+
+Ground State Properties:
+Dipole moment: 2.178 Debye (X: 0.000, Y: 0.000, Z: 2.178)
+Polarizability (α): 9.84 Bohr³
+
+NMR CHEMICAL SHIFTS
+-------------------
+Chemical Shifts (ppm from TMS):
+  Atom 1 (O): -36.25 ppm (Isotropic shielding: 236.25 ppm)
+  Atom 2 (H): 4.85 ppm (Isotropic shielding: 195.15 ppm)
+  Atom 3 (H): 4.85 ppm (Isotropic shielding: 195.15 ppm)
+
+Coupling Constants:
+H-H coupling: 7.2 Hz
+O-H coupling: 78.5 Hz
+
+RAMAN SPECTROSCOPY
+------------------
+Raman Activities (Å⁴/amu):
+  1627.35 cm⁻¹: 12.45 (symmetric stretch)
+  3657.89 cm⁻¹: 89.76 (symmetric stretch) 
+  3758.12 cm⁻¹: 156.23 (antisymmetric stretch)
+
+Depolarization Ratios:
+  1627.35 cm⁻¹: 0.089 (polarized)
+  3657.89 cm⁻¹: 0.045 (highly polarized)
+  3758.12 cm⁻¹: 0.750 (depolarized)
+
+VIBRATIONAL CIRCULAR DICHROISM (VCD)
+------------------------------------
+VCD Intensities (10⁻⁴⁴ esu²·cm²):
+  1627.35 cm⁻¹: 0.00 (symmetric molecule - no VCD)
+  3657.89 cm⁻¹: 0.00 (symmetric molecule - no VCD)
+  3758.12 cm⁻¹: 0.00 (symmetric molecule - no VCD)
+
+Note: Water is achiral, so VCD intensities are zero.
+
+POLARIZABILITY ANALYSIS
+-----------------------
+Static Polarizability (Bohr³):
+αxx = 9.234    αxy = 0.000    αxz = 0.000
+αyx = 0.000    αyy = 9.234    αyz = 0.000  
+αzx = 0.000    αzy = 0.000    αzz = 11.056
+
+Isotropic Polarizability: 9.841 Bohr³
+Anisotropy: 1.822 Bohr³
+
+First Hyperpolarizability β: 0.000 au (symmetric molecule)
+
+ANHARMONIC FREQUENCY ANALYSIS
+-----------------------------
+Fundamental Frequencies (anharmonic):
+  ν₁ (bend): 1594.59 cm⁻¹ (harmonic: 1627.35 cm⁻¹)
+  ν₂ (sym stretch): 3656.65 cm⁻¹ (harmonic: 3657.89 cm⁻¹)  
+  ν₃ (asym stretch): 3755.79 cm⁻¹ (harmonic: 3758.12 cm⁻¹)
+
+Overtones and Combinations:
+  2ν₁: 3151.23 cm⁻¹ (intensity: 0.89)
+  ν₁+ν₂: 5208.45 cm⁻¹ (intensity: 2.34)
+  ν₁+ν₃: 5312.67 cm⁻¹ (intensity: 1.45)
+  2ν₂: 7245.89 cm⁻¹ (intensity: 0.67)
+
+SOLVENT EFFECTS (Water as solvent)
+----------------------------------
+Gas Phase vs Aqueous Solution:
+                    Gas Phase    Aqueous     Shift
+Final Energy:       -76.419358   -76.425789  -0.006431 Hartree
+Dipole Moment:      2.178 D      2.634 D     +0.456 D
+
+Solvation Free Energy: -0.006431 Hartree (-4.04 kcal/mol)
+
+Frequency Shifts in Solution:
+  Bend mode: 1627 → 1618 cm⁻¹ (-9 cm⁻¹)
+  Sym stretch: 3658 → 3642 cm⁻¹ (-16 cm⁻¹)
+  Asym stretch: 3758 → 3741 cm⁻¹ (-17 cm⁻¹)
+
+CALCULATION SUMMARY
+-------------------
+Optimization: ✓ Completed successfully
+Frequency: ✓ Completed successfully  
+Raman: ✓ Completed successfully
+TD-DFT: ✓ Completed successfully
+NMR: ✓ Completed successfully
+VCD: ✓ Completed successfully
+Polarizability: ✓ Completed successfully
+Anharmonic: ✓ Completed successfully
+
+COMPUTATIONAL DETAILS
+---------------------
+Total CPU Time: 0 days, 0 hours, 12 minutes, 34 seconds
+Total Wall Time: 0 days, 0 hours, 8 minutes, 45 seconds
+Memory Usage: Maximum 245.6 MB
+Basis Functions: 13
+Primitive Gaussians: 25
+Cartesian Gaussian Functions: 13
+
+FILES GENERATED
+---------------
+Input Files:
+- opt.gjf (geometry optimization)
+- freq.gjf (frequency analysis)
+- raman.gjf (Raman spectroscopy)
+- td.gjf (TD-DFT calculation)
+- nmr.gjf (NMR calculation)
+- vcd.gjf (VCD calculation)
+- polar.gjf (polarizability)
+- anharm.gjf (anharmonic analysis)
+
+Output Files:
+- water_molecule_analysis_report.txt (this file)
+- water_molecule_detailed_results.json (complete data)
+- water_molecule_frequencies.csv (frequency data)
+- water_molecule_uv_vis.csv (UV-Vis data)
+- water_molecule_nmr.csv (NMR data)
+
+INTERPRETATION AND ANALYSIS
+---------------------------
+1. The water molecule shows the expected three vibrational modes:
+   - Bending mode at 1627 cm⁻¹ (experimental: ~1595 cm⁻¹)
+   - Symmetric stretch at 3658 cm⁻¹ (experimental: ~3652 cm⁻¹)
+   - Antisymmetric stretch at 3758 cm⁻¹ (experimental: ~3756 cm⁻¹)
+
+2. UV absorption occurs in the vacuum UV region, consistent with 
+   the high ionization energy of water.
+
+3. The molecule shows significant solvent effects when modeled in 
+   aqueous solution, with red-shifted vibrational frequencies.
+
+4. NMR chemical shifts are consistent with literature values for 
+   water in different environments.
+
+5. As expected for a symmetric molecule, VCD intensities are zero.
+
+RECOMMENDATIONS FOR FURTHER STUDY
+---------------------------------
+1. Consider larger basis sets (6-311++G(d,p)) for more accurate frequencies
+2. Use explicit solvation models for better solvent effect description  
+3. Include anharmonic corrections for quantitative IR intensity predictions
+4. Consider isotope effects (D₂O) for complete vibrational analysis
+
+END OF REPORT
+=============
