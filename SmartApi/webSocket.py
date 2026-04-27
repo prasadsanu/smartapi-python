@@ -399,6 +399,7 @@ class WebSocket(object):
             except Exception:
                 timestamp = None
 
+            d = {}
             d["last_trade_time"] = last_trade_time
             d["oi"] = self._unpack_int(packet, 48, 52)
             d["oi_day_high"] = self._unpack_int(packet, 52, 56)
@@ -420,8 +421,7 @@ class WebSocket(object):
                 })
 
             d["depth"] = depth
-
-        data.append(d)
+            data.append(d)
 
         return data
 
